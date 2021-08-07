@@ -1,0 +1,214 @@
+Running iteration 1
+
+Frequent frankfurter	count = 580	support = 0.059
+Frequent frozen meals	count = 279	support = 0.028
+Frequent frozen vegetables	count = 473	support = 0.048
+Frequent margarine	count = 576	support = 0.059
+Frequent meat	count = 254	support = 0.026
+Frequent misc. beverages	count = 279	support = 0.028
+Frequent napkins	count = 515	support = 0.052
+Frequent newspapers	count = 785	support = 0.08
+Frequent pickled vegetables	count = 176	support = 0.018
+Frequent pip fruit	count = 744	support = 0.076
+Frequent pork	count = 567	support = 0.058
+Frequent pot plants	count = 170	support = 0.017
+Frequent processed cheese	count = 163	support = 0.017
+Frequent red/blush wine	count = 189	support = 0.019
+Frequent dessert	count = 365	support = 0.037
+Frequent detergent	count = 189	support = 0.019
+Frequent dishes	count = 173	support = 0.018
+Frequent domestic eggs	count = 624	support = 0.063
+Frequent flour	count = 171	support = 0.017
+Frequent tropical fruit	count = 1032	support = 0.105
+Frequent waffles	count = 378	support = 0.038
+Frequent whipped/sour cream	count = 705	support = 0.072
+Frequent white bread	count = 414	support = 0.042
+Frequent white wine	count = 187	support = 0.019
+Frequent whole milk	count = 2513	support = 0.256
+Frequent yogurt	count = 1372	support = 0.14
+Frequent rolls/buns	count = 1809	support = 0.184
+Frequent root vegetables	count = 1072	support = 0.109
+Frequent salty snack	count = 372	support = 0.038
+Frequent sausage	count = 924	support = 0.094
+Frequent coffee	count = 571	support = 0.058
+Frequent cream cheese	count = 390	support = 0.04
+Frequent curd	count = 524	support = 0.053
+Frequent UHT-milk	count = 329	support = 0.033
+Frequent baking powder	count = 174	support = 0.018
+Frequent beef	count = 516	support = 0.052
+Frequent berries	count = 327	support = 0.033
+Frequent beverages	count = 256	support = 0.026
+Frequent ice cream	count = 246	support = 0.025
+Frequent long life bakery product	count = 368	support = 0.037
+Frequent fruit/vegetable juice	count = 711	support = 0.072
+Frequent grapes	count = 220	support = 0.022
+Frequent ham	count = 256	support = 0.026
+Frequent hamburger meat	count = 327	support = 0.033
+Frequent hard cheese	count = 241	support = 0.025
+Frequent herbs	count = 160	support = 0.016
+Frequent hygiene articles	count = 324	support = 0.033
+Frequent oil	count = 276	support = 0.028
+Frequent onions	count = 305	support = 0.031
+Frequent other vegetables	count = 1903	support = 0.193
+Frequent pasta	count = 148	support = 0.015
+Frequent pastry	count = 875	support = 0.089
+Frequent specialty bar	count = 269	support = 0.027
+Frequent specialty chocolate	count = 299	support = 0.03
+Frequent sugar	count = 333	support = 0.034
+Frequent bottled beer	count = 792	support = 0.081
+Frequent bottled water	count = 1087	support = 0.111
+Frequent brown bread	count = 638	support = 0.065
+Frequent butter milk	count = 275	support = 0.028
+Frequent butter	count = 545	support = 0.055
+Frequent candy	count = 294	support = 0.03
+Frequent canned beer	count = 764	support = 0.078
+Frequent canned fish	count = 148	support = 0.015
+Frequent semi-finished bread	count = 174	support = 0.018
+Frequent shopping bags	count = 969	support = 0.099
+Frequent sliced cheese	count = 241	support = 0.025
+Frequent soda	count = 1715	support = 0.174
+Frequent soft cheese	count = 168	support = 0.017
+Frequent cat food	count = 229	support = 0.023
+Frequent chewing gum	count = 207	support = 0.021
+Frequent chicken	count = 422	support = 0.043
+Frequent chocolate	count = 488	support = 0.05
+Frequent citrus fruit	count = 814	support = 0.083
+Running iteration 2
+
+Frequent ['frankfurter', 'other vegetables']	count = 162	support = 0.016
+Frequent ['frankfurter', 'rolls/buns']	count = 189	support = 0.019
+Frequent ['frankfurter', 'whole milk']	count = 202	support = 0.021
+Frequent ['other vegetables', 'bottled beer']	count = 159	support = 0.016
+Frequent ['other vegetables', 'bottled water']	count = 244	support = 0.025
+Frequent ['other vegetables', 'brown bread']	count = 184	support = 0.019
+Frequent ['other vegetables', 'butter']	count = 197	support = 0.02
+Frequent ['pip fruit', 'other vegetables']	count = 257	support = 0.026
+Frequent ['pip fruit', 'root vegetables']	count = 153	support = 0.016
+Frequent ['pip fruit', 'whole milk']	count = 296	support = 0.03
+Frequent ['pip fruit', 'yogurt']	count = 177	support = 0.018
+Frequent ['pork', 'other vegetables']	count = 213	support = 0.022
+Frequent ['pork', 'whole milk']	count = 218	support = 0.022
+Frequent ['curd', 'yogurt']	count = 170	support = 0.017
+Frequent ['domestic eggs', 'rolls/buns']	count = 154	support = 0.016
+Frequent ['tropical fruit', 'other vegetables']	count = 353	support = 0.036
+Frequent ['tropical fruit', 'pip fruit']	count = 201	support = 0.02
+Frequent ['tropical fruit', 'rolls/buns']	count = 242	support = 0.025
+Frequent ['tropical fruit', 'root vegetables']	count = 207	support = 0.021
+Frequent ['tropical fruit', 'soda']	count = 205	support = 0.021
+Frequent ['tropical fruit', 'whole milk']	count = 416	support = 0.042
+Frequent ['tropical fruit', 'yogurt']	count = 288	support = 0.029
+Frequent ['whole milk', 'bottled beer']	count = 201	support = 0.02
+Frequent ['whole milk', 'bottled water']	count = 338	support = 0.034
+Frequent ['whole milk', 'brown bread']	count = 248	support = 0.025
+Frequent ['whole milk', 'butter']	count = 271	support = 0.028
+Frequent ['whole milk', 'chocolate']	count = 164	support = 0.017
+Frequent ['whole milk', 'coffee']	count = 184	support = 0.019
+Frequent ['whole milk', 'cream cheese ']	count = 162	support = 0.016
+Frequent ['whole milk', 'curd']	count = 257	support = 0.026
+Frequent ['whole milk', 'domestic eggs']	count = 295	support = 0.03
+Frequent ['whole milk', 'frozen vegetables']	count = 201	support = 0.02
+Frequent ['whole milk', 'fruit/vegetable juice']	count = 262	support = 0.027
+Frequent ['whole milk', 'margarine']	count = 238	support = 0.024
+Frequent ['whole milk', 'napkins']	count = 194	support = 0.02
+Frequent ['whole milk', 'newspapers']	count = 269	support = 0.027
+Frequent ['whole milk', 'pastry']	count = 327	support = 0.033
+Frequent ['whole milk', 'rolls/buns']	count = 557	support = 0.057
+Frequent ['whole milk', 'shopping bags']	count = 241	support = 0.025
+Frequent ['whole milk', 'soda']	count = 394	support = 0.04
+Frequent ['whole milk', 'sugar']	count = 148	support = 0.015
+Frequent ['whole milk', 'whipped/sour cream']	count = 317	support = 0.032
+Frequent ['whole milk', 'white bread']	count = 168	support = 0.017
+Frequent ['whole milk', 'yogurt']	count = 551	support = 0.056
+Frequent ['yogurt', 'bottled water']	count = 226	support = 0.023
+Frequent ['yogurt', 'fruit/vegetable juice']	count = 184	support = 0.019
+Frequent ['yogurt', 'newspapers']	count = 151	support = 0.015
+Frequent ['yogurt', 'pastry']	count = 174	support = 0.018
+Frequent ['yogurt', 'rolls/buns']	count = 338	support = 0.034
+Frequent ['yogurt', 'shopping bags']	count = 150	support = 0.015
+Frequent ['yogurt', 'soda']	count = 269	support = 0.027
+Frequent ['yogurt', 'whipped/sour cream']	count = 204	support = 0.021
+Frequent ['rolls/buns', 'bottled water']	count = 238	support = 0.024
+Frequent ['rolls/buns', 'newspapers']	count = 194	support = 0.02
+Frequent ['rolls/buns', 'pastry']	count = 206	support = 0.021
+Frequent ['rolls/buns', 'shopping bags']	count = 192	support = 0.02
+Frequent ['rolls/buns', 'soda']	count = 377	support = 0.038
+Frequent ['root vegetables', 'bottled water']	count = 154	support = 0.016
+Frequent ['root vegetables', 'other vegetables']	count = 466	support = 0.047
+Frequent ['root vegetables', 'rolls/buns']	count = 239	support = 0.024
+Frequent ['root vegetables', 'soda']	count = 183	support = 0.019
+Frequent ['root vegetables', 'whipped/sour cream']	count = 168	support = 0.017
+Frequent ['root vegetables', 'whole milk']	count = 481	support = 0.049
+Frequent ['root vegetables', 'yogurt']	count = 254	support = 0.026
+Frequent ['citrus fruit', 'other vegetables']	count = 284	support = 0.029
+Frequent ['citrus fruit', 'rolls/buns']	count = 165	support = 0.017
+Frequent ['citrus fruit', 'root vegetables']	count = 174	support = 0.018
+Frequent ['citrus fruit', 'tropical fruit']	count = 196	support = 0.02
+Frequent ['citrus fruit', 'whole milk']	count = 300	support = 0.031
+Frequent ['citrus fruit', 'yogurt']	count = 213	support = 0.022
+Frequent Bucket 0	count = 14671	support = 1.492
+Frequent Bucket 1	count = 11399	support = 1.159
+Frequent Bucket 2	count = 14199	support = 1.444
+Frequent Bucket 3	count = 14133	support = 1.437
+Frequent Bucket 4	count = 14146	support = 1.438
+Frequent Bucket 5	count = 12500	support = 1.271
+Frequent Bucket 6	count = 15278	support = 1.553
+Frequent Bucket 7	count = 12879	support = 1.31
+Frequent Bucket 8	count = 14066	support = 1.43
+Frequent Bucket 9	count = 14007	support = 1.424
+Frequent ['beef', 'other vegetables']	count = 194	support = 0.02
+Frequent ['beef', 'root vegetables']	count = 171	support = 0.017
+Frequent ['beef', 'whole milk']	count = 209	support = 0.021
+Frequent ['other vegetables', 'curd']	count = 169	support = 0.017
+Frequent ['other vegetables', 'domestic eggs']	count = 219	support = 0.022
+Frequent ['other vegetables', 'frozen vegetables']	count = 175	support = 0.018
+Frequent ['other vegetables', 'fruit/vegetable juice']	count = 207	support = 0.021
+Frequent ['other vegetables', 'margarine']	count = 194	support = 0.02
+Frequent ['other vegetables', 'newspapers']	count = 190	support = 0.019
+Frequent ['other vegetables', 'pastry']	count = 222	support = 0.023
+Frequent ['other vegetables', 'rolls/buns']	count = 419	support = 0.043
+Frequent ['other vegetables', 'shopping bags']	count = 228	support = 0.023
+Frequent ['other vegetables', 'soda']	count = 322	support = 0.033
+Frequent ['other vegetables', 'whipped/sour cream']	count = 284	support = 0.029
+Frequent ['other vegetables', 'whole milk']	count = 736	support = 0.075
+Frequent ['other vegetables', 'yogurt']	count = 427	support = 0.043
+Frequent ['pastry', 'soda']	count = 207	support = 0.021
+Frequent ['tropical fruit', 'bottled water']	count = 182	support = 0.019
+Frequent ['bottled water', 'bottled beer']	count = 155	support = 0.016
+Frequent ['bottled water', 'soda']	count = 285	support = 0.029
+Frequent ['sausage', 'other vegetables']	count = 265	support = 0.027
+Frequent ['sausage', 'rolls/buns']	count = 301	support = 0.031
+Frequent ['sausage', 'shopping bags']	count = 154	support = 0.016
+Frequent ['sausage', 'soda']	count = 239	support = 0.024
+Frequent ['sausage', 'whole milk']	count = 294	support = 0.03
+Frequent ['sausage', 'yogurt']	count = 193	support = 0.02
+Frequent ['soda', 'bottled beer']	count = 167	support = 0.017
+Frequent ['soda', 'fruit/vegetable juice']	count = 181	support = 0.018
+Frequent ['soda', 'shopping bags']	count = 242	support = 0.025
+Frequent ['chicken', 'other vegetables']	count = 176	support = 0.018
+Frequent ['chicken', 'whole milk']	count = 173	support = 0.018
+Running iteration 3
+
+rolls/buns,other vegetables ---> whole milk. support = 0.017895271987798677, confidence = 0.4200477326968974
+other vegetables,yogurt ---> whole milk. support = 0.02226741230299949, confidence = 0.5128805620608898
+rolls/buns,yogurt ---> whole milk. support = 0.015556685307574987, confidence = 0.45266272189349116
+whole milk,root vegetables ---> other vegetables. support = 0.023182511438739197, confidence = 0.47401247401247404
+other vegetables,root vegetables ---> whole milk. support = 0.023182511438739197, confidence = 0.4892703862660944
+whole milk,tropical fruit ---> other vegetables. support = 0.01708185053380783, confidence = 0.4038461538461539
+other vegetables,tropical fruit ---> whole milk. support = 0.01708185053380783, confidence = 0.47592067988668557
+yogurt,tropical fruit ---> whole milk. support = 0.015149974580579562, confidence = 0.517361111111111
+Frequent ['other vegetables', 'whole milk', 'rolls/buns']	count = 176	support = 0.018
+Frequent ['other vegetables', 'whole milk', 'yogurt']	count = 219	support = 0.022
+Frequent ['whole milk', 'yogurt', 'rolls/buns']	count = 153	support = 0.016
+Frequent ['root vegetables', 'other vegetables', 'whole milk']	count = 228	support = 0.023
+Frequent Bucket 0	count = 39996	support = 4.067
+Frequent Bucket 1	count = 40232	support = 4.091
+Frequent Bucket 2	count = 40208	support = 4.088
+Frequent Bucket 3	count = 39581	support = 4.025
+Frequent Bucket 4	count = 40658	support = 4.134
+Frequent Bucket 5	count = 38845	support = 3.95
+Frequent Bucket 6	count = 40813	support = 4.15
+Frequent Bucket 7	count = 39644	support = 4.031
+Frequent Bucket 8	count = 39529	support = 4.019
+Frequent Bucket 9	count = 39810	support = 4.048
+Frequent ['tropical fruit', 'other vegetables', 'whole milk']	count = 168	support = 0.017
+Frequent ['tropical fruit', 'whole milk', 'yogurt']	count = 149	support = 0.015
