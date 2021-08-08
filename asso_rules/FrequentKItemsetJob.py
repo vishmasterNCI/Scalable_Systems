@@ -36,32 +36,35 @@ class FrequentKItemsetJob(MRJob):
 
     def mapper_get_items(self, _, line):
         lineitems = line.split(",")
+        self.increment_counter("association_rules", 'transaction_count', 1)
         if int(self.options.iteration) == 1:
-            self.increment_counter("association_rules", 'transaction_count', 1)
+            #self.increment_counter("association_rules", 'transaction_count', 1)
             for item in lineitems:
                 yield item.strip(), 1
         else:
           if int(self.options.type)==1:
-            itemsets = combinations(lineitems, self.options.iteration)
-            frequent_itemsets = filter(lambda x: set(x) not in self.frequent_items, itemsets)
-            for itemset in frequent_itemsets:
-                yield itemset, 1
-            pairs = combinations(lineitems, self.options.iteration)#,combinations(lineitems,2))
-            for pair in pairs:
-                        pair_string = str([''.join(item) for item in pair])
-                        pair_hash = hash(pair_string)
-                        bucket = pair_hash % self.options.b
-                        yield "Bucket {}".format(bucket), 1
-            if  int(self.options.iteration) ==3:
+            if  int(self.options.iteration) ==2 :
                 itemsets = combinations(lineitems, self.options.iteration)
                 frequent_itemsets = filter(lambda x: set(x) not in self.frequent_items, itemsets)
+                for itemset in frequent_itemsets:
+                    yield itemset, 1
+                pairs = combinations(lineitems, self.options.iteration)#,combinations(lineitems,2))
+                for pair in pairs:
+                        pair_string = str([''.join(item) for item in pair])
+                        pair_hash = hash(pair_string)
+                        bucket = pair_hash % (self.options.b)#*(self.options.iteration)
+                        yield "Bucket {}".format(bucket), 1
+            elif int(self.options.iteration) >2 :
+                itemsets = combinations(lineitems, self.options.iteration)
+                frequent_itemsets = filter(lambda x: set(x) not in self.frequent_items, itemsets)
+                pairs = combinations(lineitems, self.options.iteration)#,combinations(lineitems,2))
                 for pair in pairs:
                   pair_string = str([''.join(item) for item in pair])
                   pair_hash = hash(pair_string)
-                  bucket = pair_hash % self.options.b*2
-                  self.bitmap=bitmap
+                  bucket = pair_hash*self.options.iteration % (self.options.b)
+                  self.bitmap=self.options.bit
                   for itemset in frequent_itemsets:
-                    if self.bitmap[bucket]==1:
+                    if self.bitmap[int(bucket)]:
                        yield itemset, 1
 
           else:
